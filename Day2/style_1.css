@@ -1,0 +1,85 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background: url('city.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login
+{
+
+    width: 340px;
+    height: 500px;
+    border: solid 1px;
+    background-color: rgba(0,0,0,0.8);
+    /*opacity: 0.8;*/
+    position: absolute;
+    top: 16%;
+    left: 38%;
+
+
+}
+
+.login img
+{
+    position: relative;
+    left: 122px;
+    top: -53px;
+}
+
+.login h1
+{
+    color: #efed40;
+    text-align: center;
+    position: relative;
+    top: -35;
+}
+
+.login p
+{
+    color: #fff;
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+.login input
+{
+    margin-left: 30px;
+    width: 80%;
+}
+
+.login input[type="text"], .login input[type="password"]
+{
+
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    
+
+}
+
+.login input[type="submit"]
+{
+    border: none;
+    margin-top: 20px;
+    background: #fff700;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.login a{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+
+    
+}
+
